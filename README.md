@@ -13,7 +13,7 @@
 ```
 /
 L app.py            : 메인기능
-L .env              : 환경변수 파일
+L .env              : 환경변수 파일(Git예외처리 되어서 수동으로 추가해야하고 **파일명 절대 변경금지**)
 L requirements.txt  : 패키지 설치 파일
 L other_files       : 기타 파일(pdf 등)
 L .gitignore        : git 예외설정
@@ -21,7 +21,7 @@ L .gitignore        : git 예외설정
 
 ---
 
-## 서버 실행/점검
+## 서버 실행/점검 커멘드
 > streamlit run app.py --server.port 8080  
 > streamlit hello
 
