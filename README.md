@@ -3,6 +3,12 @@
 
 ---
 
+## 서버 실행/점검
+> streamlit run app.py --server.port 8080  
+> streamlit hello
+
+---
+
 ## 번외(추후 삭제예정)
 >윈11 한글 마지막 2번 써지는거 해결법
 >>https://m.blog.naver.com/sbs5709/223075779033
@@ -31,7 +37,11 @@
 
 ---
 
-## 초기설정.
+## 초기 설정
+> 패키지 설치
+>> pip install -r requirements.txt  
+
+## Git 초기설정.
 >터미널/cmd/git bash에서 프로젝트를 저장할 위치로 이동 후 아래 코드 입력
 >> git clone https://github.com/wanter9091/dog-ai-service.git  
 >
@@ -48,7 +58,17 @@
 ---
 
 ## 디렉토리 구조
->
+```
+
+/
+L app.py            : 메인기능
+L .env              : 환경변수 파일
+L requirements.txt  : 패키지 설치 파일
+L other_files       : 기타 파일(pdf 등)
+L .gitignore        : git 예외설정
+
+
+```
 
 ---
 
