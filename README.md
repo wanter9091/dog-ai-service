@@ -9,6 +9,28 @@
 
 ---
 
+## 각 branch 용도
+> ### main(*중요)
+>> 메인 branch  
+>> main에 대한 모든 업데이트는 **test에서 먼저 시도**하여 이상이 없을 시에 **팀원 모두의 동의**를 구하고한다.
+>
+> ### test
+>> 각자의 개인 branch에서의 업데이트를 먼저 테스트 해보는 곳.
+>
+> ### backup
+>> 만일의 사태를 대비한 백업용 branch  
+>> main이나 test에서 이상이 없다면 주기적으로 백업해두자
+>
+> ### []
+>> 성한빈 개인 branch
+> ### []
+>> 심규샹 개인 branch
+> ### wanter9091
+>> 오병재 개인 branch
+
+
+---
+
 ## 초기설정.
 >터미널/cmd/git bash에서 프로젝트를 저장할 위치로 이동 후 아래 코드 입력
 >>git clone https://github.com/wanter9091/dog-ai-service.git
