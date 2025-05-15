@@ -11,5 +11,6 @@
 >>git clone https://github.com/wanter9091/dog-ai-service.git
 >
 > ㅡ
+>새로 추가함
 
 
