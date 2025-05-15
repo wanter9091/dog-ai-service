@@ -3,9 +3,33 @@
 
 ---
 
+## 프로젝트 설명
+> 추후 내용 추가
+
+---
+
+## 디렉토리 구조
+
+```
+/
+L app.py            : 메인기능
+L .env              : 환경변수 파일
+L requirements.txt  : 패키지 설치 파일
+L other_files       : 기타 파일(pdf 등)
+L .gitignore        : git 예외설정
+```
+
+---
+
 ## 서버 실행/점검
 > streamlit run app.py --server.port 8080  
 > streamlit hello
+
+---
+
+## 주의사항
+> .env에는 gpt의 api-key 유출 방지로 Git 예외처리를 하여 수동으로 다운로드해줘야함  
+> 중요 key가 있다면 유출되지 않도록 주의!  
 
 ---
 
@@ -54,21 +78,6 @@
 > 
 > 아래 코드를 입력하여 각 branch가 제대로 추가되었는지 확인  
 >> git branch -r
-
----
-
-## 디렉토리 구조
-```
-
-/
-L app.py            : 메인기능
-L .env              : 환경변수 파일
-L requirements.txt  : 패키지 설치 파일
-L other_files       : 기타 파일(pdf 등)
-L .gitignore        : git 예외설정
-
-
-```
 
 ---
 
