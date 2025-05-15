@@ -3,7 +3,7 @@
 
 ---
 
-## 번외
+## 번외(추후 삭제예정)
 >윈11 한글 마지막 2번 써지는거 해결법
 >>https://m.blog.naver.com/sbs5709/223075779033
 
@@ -12,7 +12,7 @@
 ## 각 branch 용도
 > ### main(*중요)
 >> 메인 branch  
->> main에 대한 모든 업데이트는 <span style='background-color: #fff5b1'>**test에서 먼저 시도**</span>하여 이상이 없을 시에 <span style='background-color: #fff5b1'>**팀원 모두의 동의**</span>를 구하고한다.
+>> main에 대한 모든 업데이트는 **test에서 먼저 시도**하여 이상이 없을 시에 **팀원 모두의 동의**를 구하고한다.
 >
 > ### test
 >> 각자의 개인 branch에서의 업데이트를 먼저 테스트 해보는 곳.
@@ -33,7 +33,17 @@
 
 ## 초기설정.
 >터미널/cmd/git bash에서 프로젝트를 저장할 위치로 이동 후 아래 코드 입력
->>git clone https://github.com/wanter9091/dog-ai-service.git
+>> git clone https://github.com/wanter9091/dog-ai-service.git  
+>
+> vscode에서 해당 프로젝트를 폴더 열기  
+> vscode의 터미널에서 아래 코드 입력
+>> git switch test  
+>> git switch -c [원하는 개인 branch명]  
+>
+> 좌측 소스 제어(깃)에서 [게시 Branch] 버튼 클릭
+> 
+> 아래 코드를 입력하여 각 branch가 제대로 추가되었는지 확인  
+>> git branch -r
 
 ---
 
@@ -46,8 +56,11 @@
 > branch 새로 생성 후 해당 branch로 즉시 전환
 >> git switch -c [branch명]
 >
-> branch 목록 조회(*로 강조된 곳이 현재 branch)
+> 로컬(개인컴) branch 목록 조회(*로 강조된 곳이 현재 branch)
 >> git branch
+>
+> 원격(깃허브) branch 목록 조회(*로 강조된 곳이 현재 branch)
+>> git branch -r
 >
 > branch 전환 코드 2가지(최근에는 switch를 더 자주 사용한다고함. checkout은 참고용)
 >> git switch [branch명]
@@ -59,7 +72,7 @@
 
 ---
 
-## .gitignore 예시 사용법(원하는 파일의 커밋제한)
+## .gitignore 사용법 예시 (원하는 파일의 커밋제한)
 >// 1. '파일명'으로 제외하는 방법 (* 해당 방법은 경로 상관없이 지정한 파일명으로 모두 제외할 수 있다)  
 >ignoreFileName.js
 >
