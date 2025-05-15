@@ -12,7 +12,7 @@
 ## 각 branch 용도
 > ### main(*중요)
 >> 메인 branch  
->> main에 대한 모든 업데이트는 **test에서 먼저 시도**하여 이상이 없을 시에 **팀원 모두의 동의**를 구하고한다.
+>> main에 대한 모든 업데이트는 <span style='background-color: #fff5b1'>**test에서 먼저 시도**</span>하여 이상이 없을 시에 <span style='background-color: #fff5b1'>**팀원 모두의 동의**</span>를 구하고한다.
 >
 > ### test
 >> 각자의 개인 branch에서의 업데이트를 먼저 테스트 해보는 곳.
